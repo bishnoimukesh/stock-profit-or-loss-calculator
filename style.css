@@ -1,0 +1,82 @@
+body {
+    font-family: Lato;
+    font-weight: bold;
+    background-color: #f1f2f3;
+    text-align: center;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+a#github-repo {
+    color: #231f20;
+    font-size: 3rem;
+    position: absolute;
+    right: 1.25rem;
+    top: 0.5rem;
+  }
+
+label {
+    font-size: 1.2rem;
+    display: block;
+    margin: 0.5rem auto 0;
+    padding: 1rem;
+  }
+
+  input {
+    font-family: Lato;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    display: block;
+    margin: 0 auto;
+    width: 12rem;
+    padding: 0.6rem 1.25rem;
+  }
+  
+  button{
+    font-family: Lato;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #aff;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1.5rem;
+    margin: 1.2rem auto;
+  }
+  
+  button:hover{
+    background-color: #000;
+    color: #aff;
+  }
+  
+  div#output-text {
+    display: none;
+    font-size: 1.75rem;
+    border: 1px solid black;
+    border-radius: 2rem;
+    margin: 0.5rem auto 1rem;
+    padding: 1rem;
+    width: 63%;
+  }
+
+  #privacy-notice {
+    text-align: center;
+    background-color: #000;
+    color: #e1ecff;
+    border-radius: 0.5rem;
+    font-size: 1.1rem;
+    padding: 1.2em;
+    margin: 3rem auto 0;
+    width: 800px;
+    position: absolute;
+    bottom: 2rem;
+  }
